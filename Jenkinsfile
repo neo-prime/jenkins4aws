@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('stage1') {
+    stage('woekspace') {
       steps {
         ws(dir: 'demo')
       }
